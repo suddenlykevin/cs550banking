@@ -92,5 +92,14 @@ def actions(name):
 					print("You don't seem to have enough balance! Tough luck buddy.")
 			except ValueError:
 				print("Please enter a numerical value. We're giving you free money, just give us the number!")
+	elif choice == "3":
+		transfer(name)
+	elif choice == "4":
+		start()
+	elif choice == "nlIlI1I":
+		pass
+	else:
+		print("\nSorry, but we don't offer that choice. Please try again.")
 	actions(name)
+
 start()
